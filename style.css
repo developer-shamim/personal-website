@@ -1,0 +1,120 @@
+body{
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+h1 {
+    font-size: 28px;
+    color: tomato;
+}
+h2 {
+    font-size: 40px;
+}
+h4 {
+    font-size: 20px;
+}
+h5 {
+    font-size: 18px;
+}
+p {
+    color: dimgrey;
+    }
+
+.name-highlight {
+    color: tomato
+}
+.half-width {
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 100%;
+}
+.top-banner{
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+}
+.biography-area{
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+}
+.latest-work{
+    background-image: url("images/latest-work-bg.png");
+    background-repeat: no-repeat;
+}
+.footer-area{
+    background-image: url("images/footer-bg.png");
+    background-repeat: no-repeat;
+}
+section {
+    height: 500px;
+    padding-top: 120px;
+    padding-bottom: 80px;
+}
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightSalmon, tomato);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+#center{
+    text-align: center;
+    padding-top: 0px;
+}
+.work-width{
+    width: 25%;
+    float: left;
+    margin-left: 4%;
+    padding-left: 2%;
+}
+.work-width img{
+    width: 100%;
+    margin: auto;
+}
+.contact-box {
+    margin: auto;
+    width: 50%;
+    height: 120px;
+    background-image: linear-gradient(45deg, hotpink , rgb(158, 6, 138));
+    padding: 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+footer p {
+    text-align: center;
+    font-size: 12px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: tomato;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: slateblue;
+  }
